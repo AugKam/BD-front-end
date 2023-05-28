@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Pagrindinis" />
+        <item
+            android:id="@+id/myTrips"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="Mano kelionės" />
+
+        <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Profilis" />
+        <item
+            android:id="@+id/paymentMethod"
+            android:icon="@drawable/ic_baseline_payments_24"
+            android:title="Virtuali piniginė" />
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Atsijungti" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
